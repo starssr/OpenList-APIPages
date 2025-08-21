@@ -8,5 +8,5 @@ function toggleTheme() {
 // 自动切换暗黑模式
 (function () {
     const hour = new Date().getHours();
-    if (hour < 6 || hour >= 18) document.documentElement.setAttribute("data-theme", "dark");
+    if (hour < 0 || hour >= 0) document.documentElement.setAttribute("data-theme", "dark");
 })();
